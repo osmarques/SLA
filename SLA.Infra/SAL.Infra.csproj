@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SLA.Domain\SLA.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DataBase\NoSQL\MongoDB\" />
+    <Folder Include="DataBase\NoSQL\DynamoDB\" />
+    <Folder Include="DataBase\SQL\MySQL\" />
+    <Folder Include="DataBase\SQL\PostgreSQL\" />
+    <Folder Include="DataBase\SQL\SQLite\" />
+    <Folder Include="DataBase\SQL\OracleDB\" />
+  </ItemGroup>
+
+</Project>

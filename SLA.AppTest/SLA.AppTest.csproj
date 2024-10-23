@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SLA.Domain\SLA.Domain.csproj" />
+    <ProjectReference Include="..\SLA.Infra.MongoDB\SLA.Infra.MongoNoSQL.csproj" />
+    <ProjectReference Include="..\SLA.Infra.Oracle\SLA.Infra.Oracle.csproj" />
+    <ProjectReference Include="..\SLA.Infra.PostgreSQL\SLA.Infra.PostgreSQL.csproj" />
+    <ProjectReference Include="..\SLA.Service\SLA.Service.csproj" />
+  </ItemGroup>
+
+</Project>
